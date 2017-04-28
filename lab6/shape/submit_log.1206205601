@@ -1,0 +1,53 @@
+Submitting assignment 6 from p37.ecf.utoronto.ca
+Checking for the expected files in the current directory
+Shape.h Shape.cpp ShapeArray.h ShapeArray.cpp Triangle.h Triangle.cpp easygl.h easygl_constants.h graphics.h easygl.cpp graphics.cpp Main.cpp Rectangle.h Rectangle.cpp Circle.h Circle.cpp Polygon.cpp Polygon.h
+Attempting to build your code.  Make output follows:
+==================================================================
+scl enable devtoolset-4 'g++ -std=c++0x -DAUTO_MARKING -g -Wall -lX11 Circle.cpp easygl.cpp Main.cpp Rectangle.cpp Shape.cpp ShapeArray.cpp Triangle.cpp graphics.cpp Polygon.cpp -o lab6'
+------------------------------------------------------------------
+The build appears to have been successful
+
+Running exercise on the produced executable 'lab6'
+############### Testcase 1 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 2 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 3 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+################# Summary for 3 test(s) #####################
+Functionality: PASS: All tests passed
+Valgrind:      PASS: No memory leaks detected
+
+The required files passed exercise
+
+Submitting files
+
+Verifying submission
+submitece244f -l 6
+total 252
+-rw-r----- 1 submit ece244f   1173 Dec  6 20:56 Circle.cpp
+-rw-r----- 1 submit ece244f    706 Dec  6 20:56 Circle.h
+-rw-r----- 1 submit ece244f   1092 Dec  6 20:56 easygl_constants.h
+-rw-r----- 1 submit ece244f   5396 Dec  6 20:56 easygl.cpp
+-rw-r----- 1 submit ece244f   6782 Dec  6 20:56 easygl.h
+-rw-r----- 1 submit ece244f 153427 Dec  6 20:56 graphics.cpp
+-rw-r----- 1 submit ece244f   8688 Dec  6 20:56 graphics.h
+-rw-r----- 1 submit ece244f   7313 Dec  6 20:56 Main.cpp
+-rw-r----- 1 submit ece244f   4522 Dec  6 20:56 Polygon.cpp
+-rw-r----- 1 submit ece244f    741 Dec  6 20:56 Polygon.h
+-rw-r----- 1 submit ece244f   1973 Dec  6 20:56 Rectangle.cpp
+-rw-r----- 1 submit ece244f    768 Dec  6 20:56 Rectangle.h
+-rw-r----- 1 submit ece244f   7730 Dec  6 20:56 ShapeArray.cpp
+-rw-r----- 1 submit ece244f   2330 Dec  6 20:56 ShapeArray.h
+-rw-r----- 1 submit ece244f   1609 Dec  6 20:56 Shape.cpp
+-rw-r----- 1 submit ece244f   3621 Dec  6 20:56 Shape.h
+-rw-r----- 1 submit ece244f   5056 Dec  6 20:56 Triangle.cpp
+-rw-r----- 1 submit ece244f   1222 Dec  6 20:56 Triangle.h
+
+All filesizes match. All timestamps match submission time.
+
+Submission was successful
+
